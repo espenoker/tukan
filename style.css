@@ -37,6 +37,7 @@ body {
 	
 	background-color: #222;
 	color: #fff;
+    margin: 0;
 
 }
 
@@ -48,6 +49,7 @@ section{
 	font-size: 9vmin;
 	text-align: center;
 	line-height: 105%;
+    
 }
 section div{
 	width: 5em;
@@ -60,13 +62,36 @@ section div.exhale{
 }
 
 canvas{
-	position: fixed;
-	top: 50%; left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-	width: 700px;
-	height: 700px;
-	max-height: 90vmin;
-	max-width: 90vmin;
-	animation: throb 5s infinite alternate;
+    position: fixed;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* border-radius: 50%; */
+    width: 100vw;
+    height: 100vh;
+    /* max-height: 90vmin; */
+    /* max-width: 90vmin; */
+    /* animation: throb 5s infinite alternate; */
+}
+.brand{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: black;
+    width: 40vmin;
+    
+}
+.info{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60vmin;
+    min-width: 500px;
+    color: black;
+}
+h1 {
+    font-weight: normal;
+    line-height: 105%;
+    margin: 0;
+    font-size: 5vmin;
 }
