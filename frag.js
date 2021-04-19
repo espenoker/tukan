@@ -24,10 +24,10 @@ void main(void)
     vec4 dispColor = texture2D(disp2, point);
 
     
-    vec4 tl = rgb(251.0, 41.0, 212.0); 
-    vec4 tr = rgb(0.0, 255.0, 224.0);
-    vec4 bl = rgb(250.0, 255.0, 0.0);
-    vec4 br = rgb(231.0, 244.0, 255.0);
+    vec4 tl = rgb(118.0, 76.0, 158.0); 
+    vec4 tr = rgb(30.0, 180.0, 123.0);
+    vec4 bl = rgb(251.0, 177.0, 25.0);
+    vec4 br = rgb(69.0, 181.0, 73.0);
     
     float dispX  = mix(-0.5, 0.5, dispColor.r);
     float dispY  = mix(-0.5, 0.5,dispColor.r);
