@@ -15,7 +15,6 @@ vec4 rgb(float r, float g, float b) {
    return vec4(r / 255.0, g / 255.0, b / 255.0, 1.0);
 }
 
-
 void main(void)
 {
     vec2 uv = v_texcoord;
