@@ -35,7 +35,7 @@ void main(void)
     vec4 color = mix(
             mix(tl, tr, uv.x + dispX),
             mix(bl, br, uv.x - dispX), 
-            uv.y + dispY * sin(u_time)
+            uv.y + dispY * sin(u_time * 0.25)
     );
     
     gl_FragColor = color;

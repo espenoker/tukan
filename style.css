@@ -40,7 +40,7 @@ body {
     margin: 0;
 
 }
-
+img{width: 100%;}
 section{
 	height: 100%;
 	display: flex;
@@ -78,15 +78,21 @@ canvas{
     top: 20px;
     left: 20px;
     color: black;
-    width: 40vmin;
+    width: 120px;
     
+}
+.intro{
+    position: fixed;
+    top: 28px;
+    right: 20px;
+    width: 600px;
+    color: black;
 }
 .info{
     position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 60vmin;
-    min-width: 500px;
+    bottom: 20px;
+    left: 20px;
+    width: 240px;
     color: black;
 }
 h1 {
