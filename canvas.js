@@ -21,4 +21,4 @@ const calcSize = function(){
   })
 
 sandbox.load(frag)
-sandbox.setUniform("disp", "displacement4.png")
+sandbox.setUniform("disp2", "displacement5.png")

@@ -5,7 +5,6 @@ precision highp float;
 
 uniform float u_time;
 
-
 uniform sampler2D disp2;
 
 varying vec3 v_normal;
